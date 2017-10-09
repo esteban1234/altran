@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.navbar{
+    /*border: 1px red solid;*/
+    height: 100px;
+    background-color:  #424949;
+    border:none;
+}
+.navbar-nav{
+    /*border: 1px red solid;*/
+    margin-top: 2%;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    height: 553px;
+    background: url('../img/banner3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    margin-top: 6%;
+}
+.fondo{
+    width: 100%;
+    height: 553px;
+    background-color: rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+.contenedor{
+    /*padding: 20px;*/
+    /*border: 2px red solid;*/
+    display: flex;
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+    font-size: 80px;
+    line-height: 100px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.contenedor p{
+    margin-left: 1%;
+    color:  #2980b9;
+}
+.contenedor ul{
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 7s infinite;
+    /*top: 0;*/
+}
+.contenedor ul li{
+    font-size: 70px;
+}
+@keyframes cambiar{
+
+    0%{ margin-top: 0; }
+    20%{ margin-top: 0; }
+
+    25%{ margin-top: -100px; }
+    50%{ margin-top: -100px; }
+
+    55%{ margin-top: -200px; }
+    80%{ margin-top: -200px; }
+
+    85%{ margin-top: -100px; }
+    95%{ margin-top: -100px; }
+
+    100%{ margin-top: 0px; }
+}
+.boton{
+    clear: both;
+    position: absolute;
+    top: 70%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.btn-primary.btn-outline:hover {
+    color: #fff;
+}
+.seccion1{
+    padding: 7% 0% 7% 0%;
+}
+.tit{
+    margin-top: 20%;
+}
+.seccion2{
+    padding: 7% 0% 7% 0%;
+    background-color:  #eaf2f8;
+}
+.banner2 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url('../img/banner11.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    /*margin-top: 6%;*/
+}
+.fondo2{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0,0,0,.7);
+    overflow: hidden;
+}
+.pd{
+    padding: 5% 0 0% 0;
+}
+.iconos{
+    text-align: center;
+    color: #FFF;
+}
+/*--------------------footer---------------*/
+
+footer{
+    background-color: #000;
+    height: 100px;
+    overflow: hidden;
+    clear: both;
+}
+
+footer p {
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    margin-top: 2%;
+}
+
+/*-----------nosotros--------------*/
+.bannern {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    margin-top: 6%;
+}
+.fondon{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0,0,0,.5);
+    overflow: hidden;
+}
+.fondon .texton{
+    text-align: center;
+    margin: auto;
+    margin-top: 9%;
+    color: #fff;
+    font-size: 50px;
+}
+/*--------------------servicios-------------*/
+
+/*.banners p{
+    width: 70%;
+    font-size: 45px;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    padding: 5% 0% 5% 0%;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 8%;
+}*/
+
+/*--------------contacto---------*/
