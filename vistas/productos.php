@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <div class="container seccion1">
+    <div class="container seccion1" style="margin-top: 0px;">
     <div class="page-header">
         <h1 id="timeline">Contamos con los siguientes productos</h1>
     </div>
