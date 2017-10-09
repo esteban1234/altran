@@ -25,9 +25,9 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-briefcase fa-fw"></i> SERVICIOS<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Comercio de equipo y accesorios de cómputo</a></li>
+                    <li><a href="vistas/productos.php">Comercio de equipo y accesorios de cómputo</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">Consultoría en computación</a></li>            
+                    <li><a href="vistas/consultoria.php">Consultoría en computación</a></li>            
                   </ul>
             </li>
             <!-- <li>
@@ -73,7 +73,7 @@
       </div>
     </div>
 
-    
+
     <div class="section seccion2">
       <div class="container">
         <div class="row">

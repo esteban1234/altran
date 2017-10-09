@@ -19,24 +19,24 @@
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="index.php"><i class="fa fa-home fa-fw"></i> INDEX</a>
+              <a href="../index.php"><i class="fa fa-home fa-fw"></i> INDEX</a>
             </li>
             <li class="active">
-              <a href="vistas/nosotros.php"><i class="fa fa-users fa-fw"></i> NOSTROS</a>
+              <a href="nosotros.php"><i class="fa fa-users fa-fw"></i> NOSTROS</a>
             </li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-briefcase fa-fw"></i> SERVICIOS<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Comercio de equipo y accesorios de cómputo</a></li>
+                    <li><a href="productos.php">Comercio de equipo y accesorios de cómputo</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">Consultoría en computación</a></li>            
+                    <li><a href="consultoria.php">Consultoría en computación</a></li>            
                   </ul>
             </li>
             <!-- <li>
               <a href="servicios.php"><i class="fa fa-briefcase fa-fw"></i> SERVICIOS</a>
             </li> -->
             <li>
-              <a href="vistas/contacto.php"><i class="fa fa-phone fa-fw"></i> CONTACTO</a>
+              <a href="contacto.php"><i class="fa fa-phone fa-fw"></i> CONTACTO</a>
             </li>
           </ul>
          
@@ -48,7 +48,7 @@
         <div class="fondon">
             <p class="texton">El departamento IT que su empresa necesita</p>
             <div class="boton" style="text-align: center;">
-                <a class="btn btn-primary btn-outline btn-lg" data-scroll href="vistas/contacto.php">¡CONTACTANOS!</a>
+                <a class="btn btn-primary btn-outline btn-lg" data-scroll href="contacto.php">¡CONTACTANOS!</a>
             </div>
         </div>
     </div>
