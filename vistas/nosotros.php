@@ -57,31 +57,31 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1 class="text-center" style="color: #243367;">NOSOTROS</h1>
-            <p class="text-center">Lo que nos distingue</p>
+            <h1 class="text-center tit-nos" style="color: #243367;">NOSOTROS</h1>
+            <p class="text-center txt-nos">Lo que nos distingue</p>
           </div>
         </div> <br><br>
         <div class="row">
-          <div class="col-md-3">
-            <img src="../img/profesional.png" class="center-block img-responsive">
-            <h3 class="text-center">Profesionalismo</h3>
-            <p class="text-center">Disponemos de un equipo de profesionales cualificados, expertos en ingeniería informática. Le garantizamos resultados de calidad. El servicio que ofrecemos a nuestros clientes nos avala.</p>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/profesional.png" class="center-block img-responsive img-psc">
+            <h3 class="text-center tit-psc">Profesionalismo</h3>
+            <p class="text-center txt-psc">Disponemos de un equipo de profesionales cualificados, expertos en ingeniería informática. Le garantizamos resultados de calidad. El servicio que ofrecemos a nuestros clientes nos avala.</p>
           </div>
-          <div class="col-md-3">
-            <img src="../img/seguridad.png" class="center-block img-responsive">
-            <h3 class="text-center">Seguridad</h3>
-            <p class="text-center">Cumplimos rigurosamente con la Seguridad. El soporte remoto se desarrolla bajo un entorno encriptado, y nuestros procesos se ejecutan bajo normativas estándares de seguridad y calidad. Confidencialidad garantizada.</p>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/seguridad.png" class="center-block img-responsive img-psc">
+            <h3 class="text-center tit-psc">Seguridad</h3>
+            <p class="text-center txt-psc">Cumplimos rigurosamente con la Seguridad. El soporte remoto se desarrolla bajo un entorno encriptado, y nuestros procesos se ejecutan bajo normativas estándares de seguridad y calidad. Confidencialidad garantizada.</p>
           </div>
-          <div class="col-md-3">
-            <img src="../img/compromiso.png" class="center-block img-responsive">
-            <h3 class="text-center">Compromiso y Eficacia</h3>
-            <p class="text-center">Nos esforzamos por convertir a cada cliente en un compromiso profesional. 
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/compromiso.png" class="center-block img-responsive img-psc">
+            <h3 class="text-center tit-psc">Compromiso y Eficacia</h3>
+            <p class="text-center txt-psc">Nos esforzamos por convertir a cada cliente en un compromiso profesional. 
             Le brindamos una respuesta efectiva a cualquier duda o incidencia que le pueda surgir.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <img src="../img/trato.png" class="center-block img-responsive">
-            <h3 class="text-center">Trato personalizado</h3>
-            <p class="text-center">Es nuestro elemento diferenciador. Analizamos sus necesidades, con el objetivo de encontrar una solución integral adaptada totalmente a su empresa.</p>
+            <h3 class="text-center tit-psc">Trato personalizado</h3>
+            <p class="text-center txt-psc">Es nuestro elemento diferenciador. Analizamos sus necesidades, con el objetivo de encontrar una solución integral adaptada totalmente a su empresa.</p>
           </div>
         </div>
       </div>
@@ -90,13 +90,13 @@
    <div class="section seccion2">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-md-offset-1">
-            <h1 class="">COMPUTACION Y TECNOLOGIA ALTRAN SA DE CV</h1>
-            <h3>Quines somos</h3>
-            <p>Somos expertos en tecnologías de información y contamos con una experiencia de años en la comercialización de productos informaticos y consultoría en computación en los sectores industrial, comercial y de servicios. Esta experiencia la combinamos ahora con las nuevas tecnologías de información desarrolladas para aplicaciones de Internet, por lo que estamos seguros de poder ofrecer a ustedes las soluciones que sus negocios demandan hoy en día.</p>
+          <div class="col-sm-8 col-md-6 col-md-offset-1">
+            <h1 class="tit-cta">COMPUTACION Y TECNOLOGIA ALTRAN SA DE CV</h1>
+            <h3 class="sub-tit">Quines somos</h3>
+            <p class="txt-tit">Somos expertos en tecnologías de información y contamos con una experiencia de años en la comercialización de productos informaticos y consultoría en computación en los sectores industrial, comercial y de servicios. Esta experiencia la combinamos ahora con las nuevas tecnologías de información desarrolladas para aplicaciones de Internet, por lo que estamos seguros de poder ofrecer a ustedes las soluciones que sus negocios demandan hoy en día.</p>
           </div>
-          <div class="col-md-4">
-            <img src="../img/altran.png" class="img-responsive">
+          <div class="col-sm-4 col-md-4">
+            <img src="../img/altran.png" class="img-responsive img-cta">
           </div>
         </div>
       </div>

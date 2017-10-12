@@ -48,39 +48,40 @@
         </div>
     </div>
 
-    <div class="container"> <br><br><br>
+    <div class="container delete-br"> <br><br><br>
     <div class="row">
             <h4 style="text-align:center">Si desea contactar con nosotros por favor rellene el siguiente formulario.</h4>
     </div>
-    <div class="row input-container">
+    <form class="row input-container" onSubmit="return false">
             <div class="col-xs-12">
                 <div class="styled-input wide">
-                    <input type="text" required />
+                    <input type="text" id="txtNOMBRE" required />
                     <label>Nombre completo</label> 
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-6">
                 <div class="styled-input">
-                    <input type="text" required />
+                    <input type="text" id="txtCORREO" required />
                     <label>Correo</label> 
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-6">
                 <div class="styled-input" style="float:right;">
-                    <input type="text" required />
+                    <input type="text" id="txtTELEFONO" required />
                     <label>Numero teléfonico</label> 
                 </div>
             </div>
             <div class="col-xs-12">
                 <div class="styled-input wide">
-                    <textarea required></textarea>
+                    <textarea id="txtCOMENTARIO" required></textarea>
                     <label>Comentario</label>
                 </div>
+            </div><br>
+            <div id="_AJAX_PRE_" class="col-md-12"></div>
+            <div class="col-xs-10 col-sm-6">
+                <div class="btn-lrg submit-btn" onclick="sendCORREO()">Enviar mensaje</div>
             </div>
-            <div class="col-xs-12">
-                <div class="btn-lrg submit-btn">Enviar mensaje</div>
-            </div>
-    </div>
+    </form>
 </div>
 
 <div class="mapa">
@@ -88,7 +89,7 @@
 </div>
 <br><br>
       <div class=" text-center">
-        <div class="col-sm-3">
+        <div class="col-sm-12 col-md-3">
           <div class="contact-detail-box">
             <i class="fa fa-map-marker  fa-3x text-colored"></i>
             <h4>Dirección</h4>
@@ -97,7 +98,7 @@
           </div>
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-4 col-md-3">
           <div class="contact-detail-box">
             <i class="fa fa-clock-o fa-3x text-colored"></i>
             <h4>Horario</h4>
@@ -108,7 +109,7 @@
           </div>
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-4 col-md-3">
           <div class="contact-detail-box">
             <i class="fa fa-phone fa-3x text-colored"></i>
             <h4>Teléfono</h4>
@@ -117,7 +118,7 @@
           </div>
         </div>
 
-         <div class="col-sm-3">
+         <div class="col-sm-4 col-md-3">
           <div class="contact-detail-box">
             <i class="fa fa-envelope fa-3x text-colored"></i>
             <h4>Correo</h4>

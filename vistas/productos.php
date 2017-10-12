@@ -55,7 +55,7 @@
     <div class="page-header">
         <h1 id="timeline">Contamos con los siguientes productos</h1>
     </div>
-    <ul class="timeline">
+    <ul class="timeline ul">
         <li>
           <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
           <div class="timeline-panel">
